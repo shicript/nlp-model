@@ -4,7 +4,7 @@ version:
 Author: Shicript
 Date: 2021-06-16 15:02:15
 LastEditors: Shicript
-LastEditTime: 2021-06-16 15:06:40
+LastEditTime: 2021-07-19 15:51:01
 '''
 import numpy as np
 from beeprint import pp
@@ -17,9 +17,9 @@ from bert4keras.snippets import uniout
 
 maxlen = 64
 
-config_path = '/data/shicript/data_file/model/chinese_roformer-sim-char_L-12_H-768_A-12/bert_config.json'
-checkpoint_path = '/data/shicript/data_file/model/chinese_roformer-sim-char_L-12_H-768_A-12/bert_model.ckpt'
-dict_path = '/data/shicript/data_file/model/chinese_roformer-sim-char_L-12_H-768_A-12/vocab.txt'
+config_path = '/Users/shicript/Downloads/chinese_roformer-sim-char-ft_L-12_H-768_A-12/bert_config.json'
+checkpoint_path = '/Users/shicript/Downloads/chinese_roformer-sim-char-ft_L-12_H-768_A-12/bert_model.ckpt'
+dict_path = '/Users/shicript/Downloads/chinese_roformer-sim-char-ft_L-12_H-768_A-12/vocab.txt'
 
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
 
