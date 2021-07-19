@@ -4,7 +4,7 @@
  * @Author: Shicript
  * @Date: 2021-06-16 15:06:57
  * @LastEditors: Shicript
- * @LastEditTime: 2021-06-16 15:16:52
+ * @LastEditTime: 2021-07-19 15:33:31
 -->
 # RoFormer-Sim
 追一科技发布的simbert升级版本，以RoFormer为基础模型，对SimBERT整合优化得到升级版本的RoFormer-Sim。
@@ -13,3 +13,6 @@
 
 模型权重下载及原始仓库地址:
 [https://github.com/ZhuiyiTechnology/roformer-sim](https://github.com/ZhuiyiTechnology/roformer-sim)
+
+### 07-19
+更新追一科技有监督rofromer-sim
